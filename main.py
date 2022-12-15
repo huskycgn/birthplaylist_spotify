@@ -41,6 +41,6 @@ if len(itemlist) > 0:
     for item in itemlist:
         addsong(item, playlist)
 else:
-    print('Found nothing!')
+    print('Found nothing!\nMaybe wrong date format?')
 
 print('Done!')
